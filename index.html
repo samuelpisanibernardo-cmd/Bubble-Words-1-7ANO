@@ -1,0 +1,45 @@
+const questions = [
+  "O sujeito é o termo da oração que realiza ou sofre a ação expressa pelo verbo.",
+  "O verbo 'ser' pode ser usado como verbo de ligação.",
+  "A vírgula pode separar o sujeito do verbo.",
+  "O objeto direto completa um verbo transitivo direto.",
+  "Em 'Corremos rápido', a palavra 'rápido' é um advérbio.",
+  "O adjetivo concorda em gênero e número com o substantivo.",
+  "O artigo definido é 'um', 'uma'.",
+  "O pronome pessoal do caso reto 'nós' é do primeiro pessoa do plural.",
+  "O verbo 'haver', no sentido de 'existir', é impessoal.",
+  "O predicado é tudo aquilo que se diz sobre o sujeito.",
+  "O complemento nominal exige preposição.",
+  "O verbo 'gostar' é transitivo direto e exige objeto direto.",
+  "O advérbio modifica um verbo, um adjetivo ou outro advérbio.",
+  "O núcleo do sujeito é sempre um verbo.",
+  "A conjunção 'mas' indica uma ideia de adversidade.",
+  "O verbo 'fazer', no sentido de tempo, é impessoal.",
+  "A palavra 'meio' em 'Estou meio nervoso' é advérbio.",
+  "O pronome oblíquo 'mim' pode ser usado como sujeito.",
+  "O sujeito pode ser oculto em orações como 'Choveu ontem'.",
+  "A crase ocorre apenas antes de palavras masculinas."
+];
+
+const answers = [
+  true,   // ✔️ Sim, define o sujeito
+  true,   // ✔️ Ex: "Ele é feliz"
+  false,  // ❌ Nunca se separa sujeito do verbo com vírgula
+  true,   // ✔️ Completa o verbo sem preposição
+  true,   // ✔️ Modifica o verbo "corremos"
+  true,   // ✔️ Ex: "meninos altos", "meninas altas"
+  false,  // ❌ 'um/uma' são artigos indefinidos — definidos: 'o', 'a', 'os', 'as'
+  true,   // ✔️ "Nós" = 1ª pessoa do plural
+  true,   // ✔️ "Há muitos alunos" → não flexiona
+  true,   // ✔️ Definição correta de predicado
+  true,   // ✔️ Complemento nominal exige preposição
+  false,  // ❌ "Gostar" é transitivo indireto: "gosto de música"
+  true,   // ✔️ Função do advérbio
+  false,  // ❌ O núcleo do sujeito é um **substantivo** ou pronome
+  true,   // ✔️ "mas" = adversativo
+  true,   // ✔️ "Faz frio" → impessoal
+  true,   // ✔️ "meio" = advérbio aqui (modifica o adjetivo)
+  false,  // ❌ "Mim" é oblíquo — não pode ser sujeito
+  true,   // ✔️ Sujeito oculto ("choveu" = impersonal)
+  false   // ❌ Crase ocorre antes de palavras **femininas**
+];
